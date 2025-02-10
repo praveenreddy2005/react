@@ -127,22 +127,56 @@
 
 // export default App
 
-import React, { Component } from 'react';
-import FBCStateEx from './FBCStateEx'; 
+// import React, { Component } from 'react';
+// import FBCStateEx from './FBCStateEx'; 
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Welcome to the State Example</h1>
-                {/* <CBCStateEx />  */}
-                <FBCStateEx /> 
-            </div>
-        );
-    }
+// class App extends Component {
+//     render() {
+//         return (
+//             <div>
+//                 <h1>Welcome to the State Example</h1>
+//                 {/* <CBCStateEx />  */}
+//                 <FBCStateEx /> 
+//             </div>
+//         );
+//     }
+// }
+
+// export default App;
+
+// import React from 'react'
+// import './App.css';
+// import FunctionalComponent from './components/FunctionalComponent';
+// import './components/Styles.css';
+// function App() {
+//     return (
+//         <div className="App">
+//             <h1 className="heading">This is on styling class</h1>
+//             <h2 className={Styles.error}>ERRRRRORRR!!! 404</h2>
+
+//             <FunctionalComponent clgName="MRU" city="XYZ">
+//                 <h1>Hello, Good afternoon</h1>
+//                 <h2>SUCCESS</h2>
+//             </FunctionalComponent>
+//         </div>
+//     );
+// }
+
+// export default App;
+import React from 'react'
+import './App.css';
+// import { MyForm } from './components/MyForm';
+import UseEffectEx from './hookexamples/UseEffectEx';
+
+export default function App() {
+  return (
+    <div>
+      {/* <ClassComponent/> */}
+      {/* <MyForm/> */}
+      <UseEffectEx/>
+    </div>
+  )
 }
-
-export default App;
 
 
 
