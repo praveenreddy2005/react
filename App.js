@@ -166,14 +166,16 @@
 import React from 'react'
 import './App.css';
 // import { MyForm } from './components/MyForm';
-import UseEffectEx from './hookexamples/UseEffectEx';
+// import UseEffectEx from './hookexamples/UseEffectEx';
+import RefExamples from './hookexamples/RefExamples';
 
 export default function App() {
   return (
     <div>
       {/* <ClassComponent/> */}
       {/* <MyForm/> */}
-      <UseEffectEx/>
+      {/* <UseEffectEx/> */}
+      <RefExamples/>
     </div>
   )
 }
